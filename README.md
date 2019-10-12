@@ -2,5 +2,5 @@
 
 This application calculates the users age.
 
-<img>![](assets/ss.jpeg),height:20</img>
+<img src="assets/ss.jpeg",height="100">
 
