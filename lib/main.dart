@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    theme: ThemeData(primarySwatch: Colors.green),
+    theme: ThemeData(primarySwatch: Colors.blue),
     home: MyHomePage()));
 
 class MyHomePage extends StatefulWidget {
