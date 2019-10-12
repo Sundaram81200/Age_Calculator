@@ -18,7 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
     showDatePicker(
             context: context,
             firstDate: DateTime(1900),
-            initialDate: DateTime(2018),
+            initialDate: DateTime(2019),
             lastDate: DateTime.now())
         .then((DateTime dt) {
       selectedYear = dt.year;
@@ -30,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void calculateAge() {
     setState(() {
-      age = (2018 - selectedYear).toDouble();
+      age = (2019 - selectedYear).toDouble();
     });
   }
 
